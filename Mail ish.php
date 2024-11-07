@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $to = 'binuyoi@gmail.com'; // Replace with the recipient's email address
     $subject = 'Test Email from PHP';
     $message = 'Hello! This is a test email sent from a PHP script.';
-    $senderEmail = filter_var($_POST['Hckr@outlook.com'], FILTER_SANITIZE_EMAIL);
+    $senderEmail = filter_var($_POST['Hckr@sportybet.com'], FILTER_SANITIZE_EMAIL);
 
     // Define the headers
     $headers = 'From: ' . $senderEmail . "\r\n" .
